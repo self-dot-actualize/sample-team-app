@@ -11,12 +11,19 @@ Rails.application.routes.draw do
 =======
 
 
+  get "/gundry" => "gundry#index"
+
+  get "/nesses" => "nesses#index"
+  get "/products/:id" => "products#show"
+
+
   get "/rossol" => "rossol#index"
 
 
   get "/nesses" => "nesses#index"
 
   get "/products/:id" => "products#show"
+
 
 
 end
