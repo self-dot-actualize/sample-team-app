@@ -1,6 +1,18 @@
 Rails.application.routes.draw do
   get "/products" => "products#index"
 <<<<<<< HEAD
+
+
+  get "/mypage" => "bhatts#index"
+
+
+  get "/nesses" => "nesses#index"
+  get "/products/:id" => "products#show"
+
+end
+
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   get "/newproducts" => "new_products#index"
@@ -22,6 +34,7 @@ Rails.application.routes.draw do
 end
 
 >>>>>>> fbd3c385b7e135feee2e61f7c498e03a085258c8
+>>>>>>> c3523dfb48acb2ff5a666e6b10b1c740d6692281
   get "/lowe" => "lowes#index"
 >>>>>>> b56cd91a410bf7050578b778afb6d3df12d6a9fa
   get "/nesses" => "nesses#index"
