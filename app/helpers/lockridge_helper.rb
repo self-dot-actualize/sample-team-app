@@ -1,0 +1,2 @@
+module LockridgeHelper
+end
