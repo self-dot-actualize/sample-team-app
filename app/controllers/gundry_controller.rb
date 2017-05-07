@@ -1,0 +1,2 @@
+class GundryController < ApplicationController
+end
