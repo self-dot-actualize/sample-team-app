@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   get "/products" => "products#index"
 
+
   get "/rossol" => "rossol#index"
 
 
@@ -10,3 +11,8 @@ Rails.application.routes.draw do
 
 
 end
+
+  get "/lowe" => "lowes#index"
+  get "/nesses" => "nesses#index"
+  get "/products/:id" => "products#show"
+
