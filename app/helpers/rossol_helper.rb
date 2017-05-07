@@ -1,0 +1,2 @@
+module RossolHelper
+end
