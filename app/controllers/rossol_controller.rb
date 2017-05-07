@@ -1,0 +1,2 @@
+class RossolController < ApplicationController
+end
