@@ -1,0 +1,2 @@
+module StreatorHelper
+end
